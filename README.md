@@ -1,4 +1,4 @@
-# week4-project2-instegram-app
+# week4-project2-blog-app
 
 # Task 
 1. Blogs allow you to talk about any topic you are interested in and express your opinion. You’ll find some bloggers writing on every activity that took place during their day. in this task, you are requireb to create your own blog app using swift programming language
