@@ -96,14 +96,14 @@ class blogVC: UIViewController ,UITableViewDelegate,UITableViewDataSource{
          }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let data = List[indexPath.row]
+        let item = List[indexPath.row]
 
-                let nextVC = showVC()
-                nextVC.imageshow.image = data.img
-                nextVC.namebs.text = data.nameblog
-                nextVC.mssshow.text = data.mss
+                let toVC2 = showVC()
+                toVC2.imageshow.image = item.img
+                toVC2.namebs.text = item.nameblog
+                toVC2.mssshow.text = item.mss
 
-                self.present(nextVC, animated: true, completion: nil)
+                self.present(toVC2, animated: true, completion: nil)
 
   
     }
