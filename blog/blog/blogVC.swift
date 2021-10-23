@@ -17,12 +17,12 @@ var List = [Blogs(
     name: "Ahmad",
     img: UIImage(named: "20"),
     nameblog: "Exploring Maui",
-    mss: "we just got back from a trip maui, and we had a great time..."),
+    mss: "Swaying palm trees. White sand beaches. Warm banana bread. Maui has long held visitors entranced by its charm and beauty, but Hawai’i is so much more than a travel playground: its history and culture run deep. Learning about Hawai’ian culture, language, and history will deepen your respect and love for this beautiful island and its many stories...."),
            Blogs(
     name: "Fawaz",
     img: UIImage(named: "21"),
     nameblog: "Arctic Adventures",
-    mss: "Last month we took to the Arctic..."
+    mss: "Last month we were looking at Fun Facts About The Arctic, as there is so much to write about we are now looking at the best times to visit Most people know that the Arctic is an incredibly cold region circling the North Pole. When we think of the Arctic, our minds conjure images of ice and snow and blizzards as far as the eye can see..."
            )
            ]
 
@@ -96,17 +96,18 @@ class blogVC: UIViewController ,UITableViewDelegate,UITableViewDataSource{
          }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let item = List[indexPath.row]
-        let V2 = showVC()
-        present (V2,animated: true)
+        let data = List[indexPath.row]
+
+                let nextVC = showVC()
+                nextVC.imageshow.image = data.img
+                nextVC.namebs.text = data.nameblog
+                nextVC.mssshow.text = data.mss
+
+                self.present(nextVC, animated: true, completion: nil)
+
   
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        super.prepare(for: segue, sender: sender)
-        
-        let v2 = segue.destination as! showVC
-        v2.FromVC1 = sender as? Blogs
-    }
+
 }
 
 

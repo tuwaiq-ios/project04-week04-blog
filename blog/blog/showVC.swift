@@ -9,41 +9,46 @@ import UIKit
 
 class showVC : UIViewController{
     
-    
-    var FromVC1 : Blogs?
-    
-    
-    
-    
-    //let selitem : String
-   // let relitem : String
-    
-    //init(selitem: String,relitem:String) {
-       // self.selitem = selitem
-      //  self.relitem = relitem
-       // super.init(nibName: nil, bundle: nil)
-    //}
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        view.backgroundColor = .white
-        
-        let name2 = UILabel()
-        name2.translatesAutoresizingMaskIntoConstraints = false
-        name2.textColor = .black
-        name2.font = UIFont.boldSystemFont(ofSize: 40)
-        
-        view.addSubview(name2)
-        
-        NSLayoutConstraint.activate([name2.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 90 ),
-             name2.topAnchor.constraint(equalTo: view.topAnchor, constant: 300),
-             name2.heightAnchor.constraint(equalToConstant: 90),
-             name2.widthAnchor.constraint(equalToConstant: 140)
-             ])
-        name2.text = FromVC1?.name
-    }
+    let imageshow = UIImageView()
+        let namebs = UILabel()
+        let mssshow = UILabel()
 
-}
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            view.backgroundColor = .white
+
+
+
+            imageshow.layer.masksToBounds = true
+            imageshow.layer.cornerRadius = 5.0
+            imageshow.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(imageshow)
+            NSLayoutConstraint.activate([
+             imageshow.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+             imageshow.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5),
+             imageshow.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -5),
+             imageshow.heightAnchor.constraint(equalToConstant: 350)
+            ])
+
+            namebs.textColor = .blue
+            namebs.font = .boldSystemFont(ofSize: 20)
+            namebs.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(namebs)
+            NSLayoutConstraint.activate([
+                namebs.topAnchor.constraint(equalTo: imageshow.bottomAnchor, constant: 5),
+                namebs.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5)
+            ])
+
+            mssshow.font = .systemFont(ofSize: 20)
+            mssshow.numberOfLines = 12
+            mssshow.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(mssshow)
+            NSLayoutConstraint.activate([
+                mssshow.topAnchor.constraint(equalTo: namebs.bottomAnchor, constant: 8),
+                mssshow.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5),
+                mssshow.heightAnchor.constraint(equalToConstant: 300),
+                mssshow.widthAnchor.constraint(equalToConstant: 380)
+            ])
+        }
+
+    }
