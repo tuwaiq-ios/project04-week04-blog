@@ -95,18 +95,17 @@ class blogVC: UIViewController ,UITableViewDelegate,UITableViewDataSource{
              }
          }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let prouduct = List[indexPath.row]
-        performSegue(withIdentifier: "show", sender:prouduct
-        )
+        
+        let item = List[indexPath.row]
+        let V2 = showVC()
+        present (V2,animated: true)
+  
     }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        if segue.identifier == "show"{
+        
         let v2 = segue.destination as! showVC
-        v2.selectedpro = sender as? Blogs
-
-    }
+        v2.FromVC1 = sender as? Blogs
     }
 }
 
@@ -124,9 +123,9 @@ class Cell: UITableViewCell {
    
     
          override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?){
-
-
          super.init(style: style , reuseIdentifier: reuseIdentifier )
+             
+             
 
            imgincell.translatesAutoresizingMaskIntoConstraints = false
 
