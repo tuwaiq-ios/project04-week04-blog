@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  blog app by mohammed ali
 //
-//  Created by saja Al-qhtani on 15/03/1443 AH.
+//  Created by  m Al-qhtani on 15/03/1443 AH.
 //
 
 import UIKit

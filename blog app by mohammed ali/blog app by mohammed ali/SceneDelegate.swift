@@ -3,7 +3,7 @@
 //  SceneDelegate.swift
 //  BlogApp
 //
-//  Created by HANAN on 16/03/1443 AH.
+//  Created by  m Al-qhtani on 16/03/1443 AH.
 //
 
 import SwiftUI
