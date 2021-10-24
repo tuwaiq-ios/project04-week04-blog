@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ariana-Papademetropoulos-The-Tamed-Beloved-2021-Oil-on-canvas-84-x-120-inches-759x500.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
