@@ -16,7 +16,7 @@ class BlogLikesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(named: "backgroundColor")
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
         
         for post in BlogPosts.posts {

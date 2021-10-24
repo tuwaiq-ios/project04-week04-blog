@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "one piece.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "بدر .jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
