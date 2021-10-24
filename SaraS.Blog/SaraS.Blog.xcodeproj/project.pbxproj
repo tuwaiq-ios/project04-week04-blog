@@ -7,29 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56F0E1822723381B00710225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1812723381B00710225 /* AppDelegate.swift */; };
-		56F0E1842723381B00710225 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1832723381B00710225 /* SceneDelegate.swift */; };
-		56F0E1862723381B00710225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1852723381B00710225 /* ViewController.swift */; };
-		56F0E18B2723382100710225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F0E18A2723382100710225 /* Assets.xcassets */; };
-		56F0E18E2723382100710225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F0E18C2723382100710225 /* LaunchScreen.storyboard */; };
-		56F0E1962723FA1500710225 /* blogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1952723FA1400710225 /* blogs.swift */; };
-		56F0E1982723FD3200710225 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1972723FD3200710225 /* BlogCell.swift */; };
+		56F0E1ED2725323400710225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1EC2725323400710225 /* AppDelegate.swift */; };
+		56F0E1EF2725323400710225 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1EE2725323400710225 /* SceneDelegate.swift */; };
+		56F0E1F12725323400710225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E1F02725323400710225 /* ViewController.swift */; };
+		56F0E1F62725323900710225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F0E1F52725323900710225 /* Assets.xcassets */; };
+		56F0E1F92725323900710225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F0E1F72725323900710225 /* LaunchScreen.storyboard */; };
+		56F0E2012725328E00710225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E2002725328E00710225 /* ContentView.swift */; };
+		56F0E203272532A000710225 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E202272532A000710225 /* Posts.swift */; };
+		56F0E205272532BB00710225 /* BlogPostCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E204272532BB00710225 /* BlogPostCards.swift */; };
+		56F0E207272532D000710225 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E206272532D000710225 /* MainView.swift */; };
+		56F0E2092725332800710225 /* HexColorEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E2082725332800710225 /* HexColorEX.swift */; };
+		56F0E20B2725335100710225 /* BlogPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E20A2725335100710225 /* BlogPosts.swift */; };
+		56F0E20D2725336B00710225 /* BlogPostCardMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E20C2725336B00710225 /* BlogPostCardMin.swift */; };
+		56F0E20F2725338900710225 /* BlogPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F0E20E2725338900710225 /* BlogPostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56F0E17E2723381B00710225 /* SaraBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56F0E1812723381B00710225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56F0E1832723381B00710225 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56F0E1852723381B00710225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56F0E18A2723382100710225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56F0E18D2723382100710225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		56F0E18F2723382100710225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56F0E1952723FA1400710225 /* blogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogs.swift; sourceTree = "<group>"; };
-		56F0E1972723FD3200710225 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		56F0E1E92725323400710225 /* SaraS.Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaraS.Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0E1EC2725323400710225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F0E1EE2725323400710225 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56F0E1F02725323400710225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56F0E1F52725323900710225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F0E1F82725323900710225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56F0E1FA2725323900710225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F0E2002725328E00710225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56F0E202272532A000710225 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		56F0E204272532BB00710225 /* BlogPostCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostCards.swift; sourceTree = "<group>"; };
+		56F0E206272532D000710225 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		56F0E2082725332800710225 /* HexColorEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorEX.swift; sourceTree = "<group>"; };
+		56F0E20A2725335100710225 /* BlogPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPosts.swift; sourceTree = "<group>"; };
+		56F0E20C2725336B00710225 /* BlogPostCardMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostCardMin.swift; sourceTree = "<group>"; };
+		56F0E20E2725338900710225 /* BlogPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56F0E17B2723381B00710225 /* Frameworks */ = {
+		56F0E1E62725323400710225 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +51,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		56F0E1752723381B00710225 = {
+		56F0E1E02725323400710225 = {
 			isa = PBXGroup;
 			children = (
-				56F0E1802723381B00710225 /* SaraBlog */,
-				56F0E17F2723381B00710225 /* Products */,
+				56F0E1EB2725323400710225 /* SaraS.Blog */,
+				56F0E1EA2725323400710225 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		56F0E17F2723381B00710225 /* Products */ = {
+		56F0E1EA2725323400710225 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56F0E17E2723381B00710225 /* SaraBlog.app */,
+				56F0E1E92725323400710225 /* SaraS.Blog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56F0E1802723381B00710225 /* SaraBlog */ = {
+		56F0E1EB2725323400710225 /* SaraS.Blog */ = {
 			isa = PBXGroup;
 			children = (
-				56F0E1812723381B00710225 /* AppDelegate.swift */,
-				56F0E1832723381B00710225 /* SceneDelegate.swift */,
-				56F0E1852723381B00710225 /* ViewController.swift */,
-				56F0E1972723FD3200710225 /* BlogCell.swift */,
-				56F0E1952723FA1400710225 /* blogs.swift */,
-				56F0E18A2723382100710225 /* Assets.xcassets */,
-				56F0E18C2723382100710225 /* LaunchScreen.storyboard */,
-				56F0E18F2723382100710225 /* Info.plist */,
+				56F0E1EC2725323400710225 /* AppDelegate.swift */,
+				56F0E1EE2725323400710225 /* SceneDelegate.swift */,
+				56F0E1F02725323400710225 /* ViewController.swift */,
+				56F0E1F52725323900710225 /* Assets.xcassets */,
+				56F0E1F72725323900710225 /* LaunchScreen.storyboard */,
+				56F0E1FA2725323900710225 /* Info.plist */,
+				56F0E2002725328E00710225 /* ContentView.swift */,
+				56F0E202272532A000710225 /* Posts.swift */,
+				56F0E204272532BB00710225 /* BlogPostCards.swift */,
+				56F0E206272532D000710225 /* MainView.swift */,
+				56F0E2082725332800710225 /* HexColorEX.swift */,
+				56F0E20A2725335100710225 /* BlogPosts.swift */,
+				56F0E20C2725336B00710225 /* BlogPostCardMin.swift */,
+				56F0E20E2725338900710225 /* BlogPostView.swift */,
 			);
-			path = SaraBlog;
+			path = SaraS.Blog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		56F0E17D2723381B00710225 /* SaraBlog */ = {
+		56F0E1E82725323400710225 /* SaraS.Blog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56F0E1922723382100710225 /* Build configuration list for PBXNativeTarget "SaraBlog" */;
+			buildConfigurationList = 56F0E1FD2725323900710225 /* Build configuration list for PBXNativeTarget "SaraS.Blog" */;
 			buildPhases = (
-				56F0E17A2723381B00710225 /* Sources */,
-				56F0E17B2723381B00710225 /* Frameworks */,
-				56F0E17C2723381B00710225 /* Resources */,
+				56F0E1E52725323400710225 /* Sources */,
+				56F0E1E62725323400710225 /* Frameworks */,
+				56F0E1E72725323400710225 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SaraBlog;
-			productName = SaraBlog;
-			productReference = 56F0E17E2723381B00710225 /* SaraBlog.app */;
+			name = SaraS.Blog;
+			productName = SaraS.Blog;
+			productReference = 56F0E1E92725323400710225 /* SaraS.Blog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		56F0E1762723381B00710225 /* Project object */ = {
+		56F0E1E12725323400710225 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					56F0E17D2723381B00710225 = {
+					56F0E1E82725323400710225 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 56F0E1792723381B00710225 /* Build configuration list for PBXProject "SaraBlog" */;
+			buildConfigurationList = 56F0E1E42725323400710225 /* Build configuration list for PBXProject "SaraS.Blog" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,48 +131,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 56F0E1752723381B00710225;
-			productRefGroup = 56F0E17F2723381B00710225 /* Products */;
+			mainGroup = 56F0E1E02725323400710225;
+			productRefGroup = 56F0E1EA2725323400710225 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56F0E17D2723381B00710225 /* SaraBlog */,
+				56F0E1E82725323400710225 /* SaraS.Blog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		56F0E17C2723381B00710225 /* Resources */ = {
+		56F0E1E72725323400710225 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F0E18E2723382100710225 /* LaunchScreen.storyboard in Resources */,
-				56F0E18B2723382100710225 /* Assets.xcassets in Resources */,
+				56F0E1F92725323900710225 /* LaunchScreen.storyboard in Resources */,
+				56F0E1F62725323900710225 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		56F0E17A2723381B00710225 /* Sources */ = {
+		56F0E1E52725323400710225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F0E1862723381B00710225 /* ViewController.swift in Sources */,
-				56F0E1962723FA1500710225 /* blogs.swift in Sources */,
-				56F0E1822723381B00710225 /* AppDelegate.swift in Sources */,
-				56F0E1982723FD3200710225 /* BlogCell.swift in Sources */,
-				56F0E1842723381B00710225 /* SceneDelegate.swift in Sources */,
+				56F0E1F12725323400710225 /* ViewController.swift in Sources */,
+				56F0E207272532D000710225 /* MainView.swift in Sources */,
+				56F0E1ED2725323400710225 /* AppDelegate.swift in Sources */,
+				56F0E20B2725335100710225 /* BlogPosts.swift in Sources */,
+				56F0E203272532A000710225 /* Posts.swift in Sources */,
+				56F0E2092725332800710225 /* HexColorEX.swift in Sources */,
+				56F0E205272532BB00710225 /* BlogPostCards.swift in Sources */,
+				56F0E2012725328E00710225 /* ContentView.swift in Sources */,
+				56F0E20D2725336B00710225 /* BlogPostCardMin.swift in Sources */,
+				56F0E1EF2725323400710225 /* SceneDelegate.swift in Sources */,
+				56F0E20F2725338900710225 /* BlogPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56F0E18C2723382100710225 /* LaunchScreen.storyboard */ = {
+		56F0E1F72725323900710225 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				56F0E18D2723382100710225 /* Base */,
+				56F0E1F82725323900710225 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		56F0E1902723382100710225 /* Debug */ = {
+		56F0E1FB2725323900710225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		56F0E1912723382100710225 /* Release */ = {
+		56F0E1FC2725323900710225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +302,7 @@
 			};
 			name = Release;
 		};
-		56F0E1932723382100710225 /* Debug */ = {
+		56F0E1FE2725323900710225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,27 +311,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2VKRHK5LM7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SaraBlog/Info.plist;
+				INFOPLIST_FILE = SaraS.Blog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sara.sara.SaraBlog;
+				PRODUCT_BUNDLE_IDENTIFIER = "sara.sara.SaraS-Blog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		56F0E1942723382100710225 /* Release */ = {
+		56F0E1FF2725323900710225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -316,48 +338,46 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2VKRHK5LM7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SaraBlog/Info.plist;
+				INFOPLIST_FILE = SaraS.Blog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sara.sara.SaraBlog;
+				PRODUCT_BUNDLE_IDENTIFIER = "sara.sara.SaraS-Blog";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56F0E1792723381B00710225 /* Build configuration list for PBXProject "SaraBlog" */ = {
+		56F0E1E42725323400710225 /* Build configuration list for PBXProject "SaraS.Blog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56F0E1902723382100710225 /* Debug */,
-				56F0E1912723382100710225 /* Release */,
+				56F0E1FB2725323900710225 /* Debug */,
+				56F0E1FC2725323900710225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56F0E1922723382100710225 /* Build configuration list for PBXNativeTarget "SaraBlog" */ = {
+		56F0E1FD2725323900710225 /* Build configuration list for PBXNativeTarget "SaraS.Blog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56F0E1932723382100710225 /* Debug */,
-				56F0E1942723382100710225 /* Release */,
+				56F0E1FE2725323900710225 /* Debug */,
+				56F0E1FF2725323900710225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 56F0E1762723381B00710225 /* Project object */;
+	rootObject = 56F0E1E12725323400710225 /* Project object */;
 }

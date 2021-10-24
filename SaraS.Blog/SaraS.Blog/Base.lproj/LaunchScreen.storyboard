@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k7h-Ma-EPv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wac-aa-2TA">
+            <objects>
+                <viewController id="k7h-Ma-EPv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MWf-be-Zgj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blogicon3" translatesAutoresizingMaskIntoConstraints="NO" id="8L2-uo-JwK">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="QI0-Gp-cvM"/>
+                                    <constraint firstAttribute="height" constant="300" id="VH3-cp-tIB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Plume Blog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOi-Al-hEs">
+                                <rect key="frame" x="31" y="109" width="353" height="169"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="40"/>
+                                <color key="textColor" red="0.1820601225" green="0.19482430819999999" blue="0.47790652509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HRV-dj-drF"/>
+                        <color key="backgroundColor" red="0.80938291549999997" green="0.88562899829999997" blue="0.93993264440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lOi-Al-hEs" firstAttribute="centerX" secondItem="8L2-uo-JwK" secondAttribute="centerX" id="0H3-4w-cFA"/>
+                            <constraint firstItem="lOi-Al-hEs" firstAttribute="top" secondItem="HRV-dj-drF" secondAttribute="top" constant="65" id="CbQ-9g-U2k"/>
+                            <constraint firstItem="8L2-uo-JwK" firstAttribute="centerX" secondItem="MWf-be-Zgj" secondAttribute="centerX" id="FEC-2W-cqL"/>
+                            <constraint firstItem="8L2-uo-JwK" firstAttribute="centerY" secondItem="MWf-be-Zgj" secondAttribute="centerY" id="aGx-D4-hrl"/>
+                            <constraint firstItem="lOi-Al-hEs" firstAttribute="leading" secondItem="HRV-dj-drF" secondAttribute="leading" constant="31" id="h3q-gN-bxh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gab-xT-vSB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="899" y="454"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blogicon3" width="675" height="675"/>
+    </resources>
+</document>
