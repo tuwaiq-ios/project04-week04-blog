@@ -65,10 +65,10 @@ struct BlogPostCardList: View {
     
     var body: some View {
         
-        
-        
+                
         VStack(alignment: .leading) {
             Image(blogPost.image)
+            
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(maxWidth: .infinity)
@@ -247,6 +247,7 @@ struct BlogPosts :Identifiable {
     var name : String
     var image : String
     var details : String
+    let imgblog = UIImageView()
 }
 
 
