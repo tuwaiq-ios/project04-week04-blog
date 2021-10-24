@@ -15,6 +15,8 @@ class ArtiaclePageViewController: UIViewController{
     let artDesc = UILabel()
     let artWriterImage = UIImageView()
     let artWriterName = UILabel()
+    let scrollView = UIScrollView()
+    let contentView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,18 +70,35 @@ class ArtiaclePageViewController: UIViewController{
             artSubtitle.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5)
         ])
         
-        artDesc.numberOfLines = 50
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(scrollView)
+        NSLayoutConstraint.activate([
+            scrollView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            scrollView.widthAnchor.constraint(equalTo: view.widthAnchor),
+            scrollView.topAnchor.constraint(equalTo: artSubtitle.bottomAnchor, constant: 10),
+            scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        scrollView.addSubview(contentView)
+        NSLayoutConstraint.activate([
+            contentView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
+            contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
+            contentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor)
+        ])
+        
+        artDesc.numberOfLines = 0
         artDesc.font = .systemFont(ofSize: 15)
         artDesc.textColor = .darkGray
         artDesc.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(artDesc)
+        contentView.addSubview(artDesc)
         NSLayoutConstraint.activate([
-            artDesc.topAnchor.constraint(equalTo: artSubtitle.bottomAnchor, constant: 5),
-            artDesc.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5),
-            artDesc.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 5),
-            artDesc.heightAnchor.constraint(equalToConstant: 200),
-            artDesc.widthAnchor.constraint(equalToConstant: 345)
+            artDesc.topAnchor.constraint(equalTo: contentView.topAnchor),
+            artDesc.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 5),
+            artDesc.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
+            artDesc.widthAnchor.constraint(equalTo: contentView.widthAnchor, constant: -5)
         ])
     }
-    
+
 }
