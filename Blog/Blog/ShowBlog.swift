@@ -19,6 +19,7 @@ import UIKit
      override func viewDidLoad() {
          super.viewDidLoad()
          view.backgroundColor = .white
+         
 
          showWriterImg.layer.masksToBounds = true
          showWriterImg.layer.cornerRadius = 25
