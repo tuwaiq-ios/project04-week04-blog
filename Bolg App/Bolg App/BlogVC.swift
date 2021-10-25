@@ -4,11 +4,7 @@
 //
 //  Created by Ahmed Assiri on 18/03/1443 AH.
 ////
-//  ViewController.swift
-//  blog
-//
-//  Created by Macbook on 16/03/1443 AH.
-//
+
 import UIKit
 
  struct Blogs {
@@ -58,7 +54,7 @@ class blogVC: UIViewController ,UITableViewDelegate,UITableViewDataSource{
          TV.dataSource = self
          TV.delegate = self
          TV.register(Cell.self, forCellReuseIdentifier: "cell")
-         TV.backgroundColor = .black
+         TV.backgroundColor = .white
          TV.rowHeight = 390
          TV.translatesAutoresizingMaskIntoConstraints = false
         
@@ -83,7 +79,7 @@ class blogVC: UIViewController ,UITableViewDelegate,UITableViewDataSource{
          let list = List[indexPath.row]
          let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! Cell
            
-           cell.backgroundColor = .black
+           cell.backgroundColor = .white
            cell.imgincell.image = UIImage(systemName: "person")
            cell.imgblog.image = list.img
            cell.nameincell.text = list.name

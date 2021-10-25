@@ -1,4 +1,11 @@
-
+//
+//  CellBlog.swift
+//  Bolg App
+//
+//  Created by Ahmed Assiri on 18/03/1443 AH.
+///
+///
+///
 import UIKit
 
 class showVC : UIViewController{
@@ -9,7 +16,7 @@ class showVC : UIViewController{
 
         override func viewDidLoad() {
             super.viewDidLoad()
-            view.backgroundColor = .black
+            view.backgroundColor = .white
 
 
 
