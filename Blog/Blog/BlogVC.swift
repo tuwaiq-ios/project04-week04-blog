@@ -13,15 +13,13 @@ import UIKit
      override func viewDidLoad() {
          super.viewDidLoad()
          
-         
-         
          view.backgroundColor = UIColor.darkText
          let feedLbl = UILabel()
          feedLbl.text = "مدونات"
          feedLbl.textColor = .systemBackground
          feedLbl.translatesAutoresizingMaskIntoConstraints = false
          view.addSubview(feedLbl)
-         feedLbl.font = .boldSystemFont(ofSize: 35)
+         feedLbl.font = .boldSystemFont(ofSize: 40)
          NSLayoutConstraint.activate([
             feedLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 30),
             feedLbl.topAnchor.constraint(equalTo: view.topAnchor, constant: 60)
@@ -45,12 +43,12 @@ import UIKit
 
      }
       func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-          return articles.count
+          return blogsArt.count
      }
 
      func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! BlogCell
-         let data = articles[indexPath.row]
+         let data = blogsArt[indexPath.row]
 
          cell.blogImgCell.image = UIImage(named: data.showImg)
          cell.blogImgCell.clipsToBounds = true
@@ -63,7 +61,7 @@ import UIKit
      }
 
      func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-         let data = articles[indexPath.row]
+         let data = blogsArt[indexPath.row]
 
          let nextVC = ShowBlog()
          nextVC.showImg.image = UIImage(named: data.showImg)
@@ -106,7 +104,7 @@ struct Blogs {
 }
 
 
-var articles = [
+var blogsArt = [
     Blogs(showImg: "1",
           title: "مدونة",
           subtitle: "ركز في الجهود.. وليس النتائج",

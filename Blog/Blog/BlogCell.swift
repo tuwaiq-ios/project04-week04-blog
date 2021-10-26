@@ -47,7 +47,7 @@ import UIKit
          self.addSubview(titlLbl)
          NSLayoutConstraint.activate([
             titlLbl.topAnchor.constraint(equalTo: blogImgCell.bottomAnchor , constant: 5),
-            titlLbl.leftAnchor.constraint(equalTo: leftAnchor, constant: 10),
+            titlLbl.rightAnchor.constraint(equalTo: rightAnchor, constant: -10),
             titlLbl.heightAnchor.constraint(equalToConstant: 20)
          ])
          subTLbl.font = .systemFont(ofSize: 25)
@@ -55,7 +55,7 @@ import UIKit
          self.addSubview(subTLbl)
          NSLayoutConstraint.activate([
             subTLbl.topAnchor.constraint(equalTo: titlLbl.bottomAnchor, constant: 5),
-            subTLbl.leftAnchor.constraint(equalTo: leftAnchor, constant: 10),
+            subTLbl.rightAnchor.constraint(equalTo: rightAnchor, constant: -10),
             subTLbl.heightAnchor.constraint(equalToConstant: 26)
          ])
 
@@ -66,7 +66,7 @@ import UIKit
          self.addSubview(blogLbl)
          NSLayoutConstraint.activate([
             blogLbl.topAnchor.constraint(equalTo: subTLbl.bottomAnchor , constant: 5),
-            blogLbl.leftAnchor.constraint(equalTo: leftAnchor, constant: 10),
+            blogLbl.rightAnchor.constraint(equalTo: rightAnchor, constant: -10),
             blogLbl.rightAnchor.constraint(equalTo: rightAnchor),
             blogLbl.heightAnchor.constraint(equalToConstant: 60),
             blogLbl.widthAnchor.constraint(equalToConstant: 340)

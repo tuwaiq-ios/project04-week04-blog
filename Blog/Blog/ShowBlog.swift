@@ -58,7 +58,7 @@ import UIKit
          view.addSubview(showTit)
          NSLayoutConstraint.activate([
             showTit.topAnchor.constraint(equalTo: showImg.bottomAnchor, constant: 5),
-             showTit.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5)
+             showTit.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -5)
          ])
 
          showST.font = .boldSystemFont(ofSize: 25)
@@ -66,7 +66,7 @@ import UIKit
          view.addSubview(showST)
          NSLayoutConstraint.activate([
             showST.topAnchor.constraint(equalTo: showTit.bottomAnchor, constant: 8),
-            showST.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5)
+            showST.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -5)
          ])
 
          showDesc.numberOfLines = 50
@@ -76,8 +76,8 @@ import UIKit
          view.addSubview(showDesc)
          NSLayoutConstraint.activate([
             showDesc.topAnchor.constraint(equalTo: showST.bottomAnchor, constant: 5),
-            showDesc.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 5),
-            showDesc.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 5),
+            showDesc.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -5),
+            showDesc.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -15),
             showDesc.heightAnchor.constraint(equalToConstant: 200),
             showDesc.widthAnchor.constraint(equalToConstant: 345)
          ])
